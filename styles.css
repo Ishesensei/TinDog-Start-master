@@ -5,8 +5,9 @@ body {
 
 }
 
-h1 { font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
     font-weight: 900;
     line-height: 1.5;
 
@@ -31,27 +32,49 @@ font-family: 'Ubuntu', sans-serif; */
 }
 
 .navbar {
+    padding-right: 12px;
+    padding-left: 12px;
     padding-bottom: 3.5rem;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-family: "Ubuntu", sans-serif;
     font-weight: bold;
-    font-size: 2.7rem;
+    font-size: 2rem;
 }
 
-.row { 
+.row {
     margin-left: 0;
-margin-right: 0;
+    margin-right: 0;
 }
 
 .navbar-expand-lg .navbar-nav .nav-item {
     padding-left: 15px;
-    padding-right: 15
-    
-    
-    
-    
-    
-    px;
+    padding-right: 15px;
+}
+
+.nav-link {
+    font-family: "montderrat", sans-serif;
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+.download-button {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-right: 12px;
+    margin-left: 0px;
+}
+
+.hero-iphone {
+    transform-origin: bottom;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    transform: rotate(20deg);
+    width: 60%;
+}
+
+.icon-features {
+    font-size: 5rem;
+    color:#ef8172;
 }
