@@ -113,3 +113,9 @@ font-family: 'Ubuntu', sans-serif; */
 .row{
     text-align: center;
 }
+
+#Testemonials{
+    /* text-align: center; */
+    padding: 20px 320px;
+    background-color: #ef8172;
+}
