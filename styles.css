@@ -31,6 +31,7 @@ font-family: 'Ubuntu', sans-serif; */
 /***id-Class-psudo-styles******** */
 
 #title {
+    overflow:hidden;
     background-color: #ff4c68;
     color: white;
 }
@@ -75,13 +76,15 @@ font-family: 'Ubuntu', sans-serif; */
 }
 
 .hero-iphone {
-    transform-origin: bottom;
+    
     margin-top: 50px;
-    margin-bottom: 50px;
     transform: rotate(20deg);
     width: 60%;
 }
 
+.h-i{
+     height: 23rem;
+}
 
 
 .icon-features {
