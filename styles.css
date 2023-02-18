@@ -121,7 +121,7 @@ font-family: 'Ubuntu', sans-serif; */
 }
 
 #Testemonials {
-    padding: 5px 0%;
+    padding: 0 0 3%;
     background-color: #ef8172;
     text-align: center;
     color: #fff;
@@ -133,7 +133,7 @@ font-family: 'Ubuntu', sans-serif; */
     border-radius: 100%;
 }
 .carousel-item{
-    padding: 80px 15%;
+    padding: 5% 15% 5%;
 }
 .
 
