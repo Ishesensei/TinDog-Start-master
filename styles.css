@@ -12,6 +12,7 @@ h1 {
     line-height: 1.5;
 
 }
+
 h2 {
     font-family: 'Montserrat';
     font-size: 2.5rem;
@@ -108,31 +109,35 @@ font-family: 'Ubuntu', sans-serif; */
 }
 
 #features {
-   padding: 5% 8%; 
+    padding: 5% 8%;
 }
+
 .feature-column {
     padding: 0% 6%;
 }
 
-.row{
+.row {
     text-align: center;
 }
 
-#Testemonials{
-    /* text-align: center; */
-    padding: 5% 8%;
+#Testemonials {
+    padding: 5px 0%;
     background-color: #ef8172;
     text-align: center;
     color: #fff;
 }
 
-.testimonial-image{
+.testimonial-image {
     width: 10%;
     border-radius: 100%;
 }
+.carousel-item{
+    padding: 80px 15%;
+}
+.
 
 #press {
-    padding:5%;
+    padding: 5px;
     background-color: #ef8172;
     text-align: center;
 }
@@ -141,8 +146,4 @@ font-family: 'Ubuntu', sans-serif; */
     width: 15%;
     margin: 2px 15px 5px;
 
-}
-
-.carousel-item{
-    border: 100px solid rgb(106, 100, 193);
 }
