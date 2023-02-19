@@ -31,7 +31,7 @@ font-family: 'Ubuntu', sans-serif; */
 /***id-Class-psudo-styles******** */
 
 #title {
-    overflow:hidden;
+    overflow: hidden;
     background-color: #ff4c68;
     color: white;
 }
@@ -67,23 +67,27 @@ font-family: 'Ubuntu', sans-serif; */
     font-weight: 800;
     font-size: 1rem;
 }
-
-.download-button {
-    margin-top: 12px;
-    margin-bottom: 12px;
-    margin-right: 12px;
-    margin-left: 0px;
+.dog-mobile {
+      height: 25rem;
 }
 
 .hero-iphone {
-    
-    margin-top: 50px;
+    margin-top: 2rem;
     transform: rotate(20deg);
     width: 60%;
+  
 }
 
-.h-i{
-     height: 23rem;
+@media screen and (max-width: 1200px) {
+    .hero-iphone {
+        transform: rotate(0deg);
+    }
+}
+
+
+
+.h-i {
+    height: 23rem;
 }
 
 
@@ -114,7 +118,11 @@ font-family: 'Ubuntu', sans-serif; */
     font-weight: 700;
 }
 
+
+
 #features {
+    background-color: #ffffff;
+    position: relative;
     padding: 5% 8%;
 }
 
@@ -342,3 +350,22 @@ input:checked+.slider:before {
     justify-content: center;
     flex-wrap: wrap;
 }
+
+
+/* cta **********/
+#cta {}
+
+.ctn-cta {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+}
+
+.h3-cta {
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
